@@ -124,6 +124,8 @@ O **AnythingLLM** funciona como base consultiva de conhecimento de domínio: liv
 ### Paperclip
 O **Paperclip** funciona como ambiente operacional e organizacional do sistema, incluindo a gestão prática dos agentes e dos fluxos do time.
 
+No cenário atual, existe um plugin local do Paperclip que adiciona um menu **"Knowledge"** e abre o **AnythingLLM**. Esse plugin já existe no ambiente local de referência, mas **ainda não está publicado em repositório oficial**. Portanto, ele ainda não pode ser tratado nesta documentação como dependência pública replicável.
+
 ### Learning Manager
 O **Learning Manager** governa os aprendizados produzidos pela operação e decide o que deve ser descartado, consolidado ou promovido.
 
@@ -139,11 +141,31 @@ Este repositório deve ser usado como fonte de verdade para:
 
 Ao contratar ou atualizar agentes do Knowledge Team, priorize sempre o conteúdo deste repositório.
 
+## Implementação rápida
+
+Se o objetivo é colocar o sistema de pé com o menor atrito possível, use esta sequência:
+
+1. contrate o **Chief Knowledge Officer**
+2. mande o CKO consultar este repositório
+3. contrate o **Knowledge Infra** para validar a stack mínima
+4. contrate os agentes centrais de estruturação
+5. ative o **Learning Manager**
+6. valide adoção com **Knowledge Enablement**
+7. meça com **Knowledge Evaluator**
+
+Documentos operacionais para isso:
+
+- `docs/quickstart.md` — passo a passo curto e executável
+- `IMPLEMENTATION.md` — checklist operacional de implantação real
+- `docs/bootstrap.md` — ordem e lógica do bootstrap
+- `docs/paperclip-knowledge-plugin.md` — status atual da dependência do plugin Knowledge e critérios para replicação
+
 ## Estrutura do repositório
 
 ```text
 knowledge-team/
 ├─ README.md
+├─ IMPLEMENTATION.md
 ├─ agents/
 │  ├─ chief-knowledge-officer.md
 │  ├─ knowledge-infra.md
@@ -168,5 +190,7 @@ knowledge-team/
 └─ docs/
    ├─ architecture.md
    ├─ bootstrap.md
-   └─ operating-model.md
+   ├─ operating-model.md
+   ├─ paperclip-knowledge-plugin.md
+   └─ quickstart.md
 ```

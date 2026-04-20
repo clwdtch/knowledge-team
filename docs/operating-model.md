@@ -144,7 +144,7 @@ Agente:
 ## Fluxo 1 — Infraestrutura e base
 Esse fluxo garante que a organização tenha um sistema funcional para armazenar e usar conhecimento.
 
-1. Knowledge Infra valida a stack técnica
+1. Knowledge Infra valida a stack técnica, incluindo o status real do plugin local `Knowledge`
 2. Knowledge Architect define a estrutura da base
 3. Knowledge Librarian mantém o acervo organizado
 

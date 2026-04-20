@@ -8,7 +8,7 @@ Garantir que toda a infraestrutura técnica necessária para o Knowledge Team op
 
 ## Responsabilidades
 - garantir a instalação e operação do AnythingLLM
-- garantir a instalação, configuração e saúde do plugin do Paperclip ligado ao sistema de knowledge
+- validar a existência, a configuração e a saúde do plugin local `Knowledge` do Paperclip ligado ao sistema de knowledge
 - monitorar dependências técnicas do Knowledge Team
 - identificar falhas, indisponibilidades e gargalos de infraestrutura
 - solicitar ou coordenar correções de ambiente quando necessário
@@ -17,7 +17,7 @@ Garantir que toda a infraestrutura técnica necessária para o Knowledge Team op
 ## O que faz
 - valida a infraestrutura necessária para o time operar
 - verifica se o AnythingLLM está instalado e acessível
-- verifica se o plugin do Paperclip está instalado e funcional
+- verifica se o plugin local `Knowledge` do Paperclip está presente e funcional no ambiente atual
 - monitora conectividade, disponibilidade e integridade da stack de knowledge
 - sinaliza problemas de ambiente
 - acompanha a saúde técnica das integrações do time
@@ -33,7 +33,7 @@ Garantir que toda a infraestrutura técnica necessária para o Knowledge Team op
 - requisitos técnicos do Knowledge Team
 - estado do ambiente e dos serviços
 - configuração do AnythingLLM
-- configuração do plugin do Paperclip
+- configuração do plugin local `Knowledge` do Paperclip
 - incidentes técnicos reportados
 - diretrizes do Chief Knowledge Officer
 
@@ -46,16 +46,17 @@ Garantir que toda a infraestrutura técnica necessária para o Knowledge Team op
 
 ## Rotina de operação
 1. verificar se o AnythingLLM está instalado, acessível e operacional
-2. verificar se o plugin do Paperclip está instalado, configurado e funcional
-3. revisar dependências técnicas adicionais do Knowledge Team
-4. monitorar disponibilidade e estabilidade dos componentes críticos
-5. registrar falhas, riscos e pendências de infraestrutura
-6. solicitar ou escalar correções quando algo estiver fora do esperado
-7. informar ao Chief Knowledge Officer o estado técnico do ambiente
+2. verificar se o plugin local `Knowledge` do Paperclip existe no ambiente atual, está configurado e funcional
+3. classificar se essa dependência é apenas local ou já replicável por publicação oficial
+4. revisar dependências técnicas adicionais do Knowledge Team
+5. monitorar disponibilidade e estabilidade dos componentes críticos
+6. registrar falhas, riscos e pendências de infraestrutura
+7. solicitar ou escalar correções quando algo estiver fora do esperado
+8. informar ao Chief Knowledge Officer o estado técnico do ambiente
 
 ## Critérios de sucesso
 - o AnythingLLM está operacional
-- o plugin do Paperclip está funcional
+- o plugin local `Knowledge` está funcional no ambiente atual ou seu bloqueio está explicitamente registrado
 - a infraestrutura necessária ao Knowledge Team está disponível
 - falhas técnicas são detectadas rapidamente
 - incidentes de infra não bloqueiam a operação do time por longos períodos
