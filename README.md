@@ -1,34 +1,34 @@
 # Knowledge Team
 
-O **Knowledge Team** é uma estrutura organizacional de agentes especializada em construir, manter, avaliar e evoluir a capacidade cognitiva de uma organização no Paperclip.
+O **Knowledge Team** é uma estrutura organizacional de agentes especializada em construir, manter, avaliar e evoluir a capacidade cognitiva de uma organização no **Paperclip**.
 
-Em vez de misturar descoberta de conhecimento, curadoria, infraestrutura, aprendizado e avaliação em um único agente, o Knowledge Team separa essas responsabilidades em papéis claros. Isso permite uma organização mais robusta, auditável, escalável e replicável.
+Em vez de misturar descoberta de conhecimento, curadoria, infraestrutura, aprendizado e avaliação em um único agente, o Knowledge Team separa essas responsabilidades em papéis claros. Isso permite uma operação mais robusta, auditável, escalável e replicável.
 
 ## Objetivo
 
-O objetivo do Knowledge Team é:
+O Knowledge Team existe para:
 
 - estruturar a infraestrutura de conhecimento da organização
 - descobrir e selecionar conhecimentos úteis para diferentes agentes
-- incorporar conhecimento nas bases certas
-- manter o acervo limpo e organizado
+- incorporar conhecimento nas bases corretas
+- manter o acervo limpo, organizado e utilizável
 - governar aprendizados gerados pela operação
 - garantir que agentes operacionais usem corretamente a base de conhecimento
 - medir a qualidade e o impacto do sistema de knowledge
 
-Em resumo: o Knowledge Team existe para melhorar continuamente os agentes da organização por meio de conhecimento governado.
+Em resumo: o Knowledge Team melhora continuamente os agentes operacionais da organização por meio de conhecimento governado. Ele **não substitui** esses agentes.
 
 ## Organização-mãe
 
-Este repositório nasce no contexto da organização **Knowledge Force**, que atua como organização-mãe para desenvolver, testar, melhorar e depois replicar esse time de knowledge em outras organizações.
+Este repositório nasce no contexto da organização **Knowledge Force**, que atua como organização-mãe para desenvolver, testar, melhorar e depois replicar esse modelo em outras organizações.
 
-## Estrutura do time
+## Liderança e papéis do time
 
-O Knowledge Team é liderado por um agente principal:
+O Knowledge Team é liderado por:
 
 - **Chief Knowledge Officer**
 
-E esse agente contrata e coordena os seguintes papéis:
+E coordena os seguintes papéis:
 
 1. **Knowledge Infra**
 2. **Knowledge Architect**
@@ -64,7 +64,7 @@ Seleciona, entre os conhecimentos descobertos, o que faz sentido para cada tipo 
 Localiza, coleta e incorpora os materiais aprovados na base de conhecimento correta.
 
 ### Learning Manager
-Recebe aprendizados gerados pelos agentes e decide o que descarta, consolida ou promove para instrução permanente.
+Governa os aprendizados gerados pelos agentes operacionais, separando ruído, memória revisável e instrução permanente.
 
 ### Knowledge Enablement
 Garante que os agentes operacionais consultem a base de conhecimento e encaminhem aprendizados corretamente.
@@ -73,8 +73,6 @@ Garante que os agentes operacionais consultem a base de conhecimento e encaminhe
 Mede a qualidade, o impacto e as lacunas do sistema de knowledge.
 
 ## Princípios do sistema
-
-O Knowledge Team foi desenhado com alguns princípios centrais:
 
 ### 1. Separação de responsabilidades
 Cada papel tem uma função clara. Descobrir, selecionar, ingerir, organizar, aprender, habilitar e avaliar são atividades diferentes e não devem ser confundidas.
@@ -92,8 +90,6 @@ O sistema deve aprender com a operação, melhorar com o tempo e manter rastreab
 O Knowledge Team foi pensado para ser instalado em outras organizações, preservando consistência e qualidade.
 
 ## Fluxo geral de funcionamento
-
-O fluxo do Knowledge Team pode ser entendido assim:
 
 1. **Knowledge Infra** garante que a infraestrutura esteja pronta
 2. **Knowledge Architect** define a estrutura da base
@@ -120,6 +116,17 @@ O papel do Knowledge Team é elevar a qualidade desses agentes, oferecendo:
 - melhor manutenção do acervo
 - melhor avaliação do sistema
 
+## Papel do AnythingLLM e do Paperclip
+
+### AnythingLLM
+O **AnythingLLM** funciona como base consultiva de conhecimento de domínio: livros, artigos, playbooks, documentos e referências que os agentes podem consultar.
+
+### Paperclip
+O **Paperclip** funciona como ambiente operacional e organizacional do sistema, incluindo a gestão prática dos agentes e dos fluxos do time.
+
+### Learning Manager
+O **Learning Manager** governa os aprendizados produzidos pela operação e decide o que deve ser descartado, consolidado ou promovido.
+
 ## Repositório como fonte de verdade
 
 Este repositório deve ser usado como fonte de verdade para:
@@ -132,25 +139,34 @@ Este repositório deve ser usado como fonte de verdade para:
 
 Ao contratar ou atualizar agentes do Knowledge Team, priorize sempre o conteúdo deste repositório.
 
-## Estrutura sugerida do repositório
-
-Uma estrutura inicial recomendada é:
+## Estrutura do repositório
 
 ```text
 knowledge-team/
 ├─ README.md
 ├─ agents/
-│ ├─ chief-knowledge-officer.md
-│ ├─ knowledge-infra.md
-│ ├─ knowledge-architect.md
-│ ├─ knowledge-librarian.md
-│ ├─ knowledge-discovery.md
-│ ├─ knowledge-curator.md
-│ ├─ knowledge-finder.md
-│ ├─ learning-manager.md
-│ ├─ knowledge-enablement.md
-│ └─ knowledge-evaluator.md
+│  ├─ chief-knowledge-officer.md
+│  ├─ knowledge-infra.md
+│  ├─ knowledge-architect.md
+│  ├─ knowledge-librarian.md
+│  ├─ knowledge-discovery.md
+│  ├─ knowledge-curator.md
+│  ├─ knowledge-finder.md
+│  ├─ learning-manager.md
+│  ├─ knowledge-enablement.md
+│  └─ knowledge-evaluator.md
+├─ templates/
+│  ├─ hire-knowledge-infra.md
+│  ├─ hire-knowledge-architect.md
+│  ├─ hire-knowledge-librarian.md
+│  ├─ hire-knowledge-discovery.md
+│  ├─ hire-knowledge-curator.md
+│  ├─ hire-knowledge-finder.md
+│  ├─ hire-learning-manager.md
+│  ├─ hire-knowledge-enablement.md
+│  └─ hire-knowledge-evaluator.md
 └─ docs/
-├─ architecture.md
-├─ bootstrap.md
-└─ operating-model.md
+   ├─ architecture.md
+   ├─ bootstrap.md
+   └─ operating-model.md
+```
