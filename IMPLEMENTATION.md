@@ -14,6 +14,7 @@ Considere o Knowledge Team pronto para operação inicial quando:
 
 - existe um **CKO** ativo coordenando o time
 - a stack mínima foi validada pelo **Knowledge Infra**
+- a dependência do plugin local `Knowledge` no Paperclip foi classificada como pronta, parcial ou bloqueada
 - a base consultiva está acessível em **AnythingLLM**
 - os agentes centrais foram contratados e instruídos
 - existe estrutura inicial de conhecimento definida
@@ -99,8 +100,10 @@ Contratar o **Knowledge Infra**.
 
 - [ ] Knowledge Infra contratado
 - [ ] AnythingLLM validado ou bloqueios documentados
-- [ ] Paperclip/plugin/integrações validados ou bloqueios documentados
+- [ ] plugin local `Knowledge` do Paperclip validado no ambiente atual ou bloqueios documentados
+- [ ] status de replicabilidade do plugin registrado: local-only / publicado / bloqueado
 - [ ] Dependências técnicas verificadas
+- [ ] URL do AnythingLLM usada pelo plugin identificada e verificada
 - [ ] Conectividade entre componentes verificada
 - [ ] Credenciais e permissões mínimas verificadas
 - [ ] Resultado consolidado como: pronto / parcial / bloqueado
@@ -109,10 +112,13 @@ Contratar o **Knowledge Infra**.
 
 - `agents/knowledge-infra.md`
 - `templates/hire-knowledge-infra.md`
+- `docs/paperclip-knowledge-plugin.md`
 
 ### Saída esperada
 
 Você sabe objetivamente se o ambiente suporta o bootstrap.
+
+Se o ambiente depender do plugin local `Knowledge` ainda não publicado, isso precisa ficar registrado como **dependência pendente para replicação** e não como passo já replicável.
 
 ### Critério de avanço
 

@@ -38,7 +38,7 @@ Garantir que a base técnica exista.
 
 Inclui:
 - instalação e validação do AnythingLLM
-- instalação e validação do plugin do Paperclip
+- validação do plugin local `Knowledge` do Paperclip e registro do seu status de replicabilidade
 - checagem de dependências necessárias
 - verificação de conectividade e funcionamento
 
@@ -157,11 +157,13 @@ O Chief Knowledge Officer contrata o **Knowledge Infra**.
 ## Passo 4
 O Knowledge Infra verifica:
 - AnythingLLM
-- plugin do Paperclip
+- plugin local `Knowledge` do Paperclip
 - dependências técnicas
 - conectividade e disponibilidade
 
-Se houver bloqueios de instalação ou permissão, o Knowledge Infra deve escalar isso para o agente com autoridade adequada na organização.
+Se houver bloqueios de instalação, publicação, configuração ou permissão, o Knowledge Infra deve escalar isso para o agente com autoridade adequada na organização.
+
+Se o ambiente depender do plugin local `Knowledge` ainda não publicado, o bloqueio de replicação deve ser registrado explicitamente.
 
 ## Passo 5
 Com a base técnica validada, o Chief Knowledge Officer contrata:

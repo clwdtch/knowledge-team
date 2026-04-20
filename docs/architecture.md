@@ -80,7 +80,7 @@ Responsável por garantir uso correto do sistema e medir se ele está funcionand
 É o líder do sistema. Coordena o time, define prioridades, supervisiona a coerência do todo e garante a evolução estratégica do departamento.
 
 ## Knowledge Infra
-Garante a existência e saúde da infraestrutura técnica necessária para o sistema operar, incluindo AnythingLLM, plugin do Paperclip e demais dependências.
+Garante a existência e saúde da infraestrutura técnica necessária para o sistema operar, incluindo AnythingLLM, o plugin local `Knowledge` do Paperclip quando existente, e demais dependências.
 
 ## Knowledge Architect
 Define a arquitetura lógica da base de conhecimento: taxonomia, padrões de classificação, estrutura de coleções e organização geral do sistema.

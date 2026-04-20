@@ -124,6 +124,8 @@ O **AnythingLLM** funciona como base consultiva de conhecimento de domínio: liv
 ### Paperclip
 O **Paperclip** funciona como ambiente operacional e organizacional do sistema, incluindo a gestão prática dos agentes e dos fluxos do time.
 
+No cenário atual, existe um plugin local do Paperclip que adiciona um menu **"Knowledge"** e abre o **AnythingLLM**. Esse plugin já existe no ambiente local de referência, mas **ainda não está publicado em repositório oficial**. Portanto, ele ainda não pode ser tratado nesta documentação como dependência pública replicável.
+
 ### Learning Manager
 O **Learning Manager** governa os aprendizados produzidos pela operação e decide o que deve ser descartado, consolidado ou promovido.
 
@@ -156,6 +158,7 @@ Documentos operacionais para isso:
 - `docs/quickstart.md` — passo a passo curto e executável
 - `IMPLEMENTATION.md` — checklist operacional de implantação real
 - `docs/bootstrap.md` — ordem e lógica do bootstrap
+- `docs/paperclip-knowledge-plugin.md` — status atual da dependência do plugin Knowledge e critérios para replicação
 
 ## Estrutura do repositório
 
@@ -188,5 +191,6 @@ knowledge-team/
    ├─ architecture.md
    ├─ bootstrap.md
    ├─ operating-model.md
+   ├─ paperclip-knowledge-plugin.md
    └─ quickstart.md
 ```

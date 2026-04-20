@@ -1,7 +1,7 @@
 # Template de contratação — Knowledge Infra
 
 ## Objetivo da contratação
-Contratar o agente **Knowledge Infra** para garantir a base técnica do Knowledge Team, incluindo AnythingLLM e Paperclip, com saúde operacional e rastreabilidade.
+Contratar o agente **Knowledge Infra** para garantir a base técnica do Knowledge Team, incluindo AnythingLLM e o estado real da dependência do plugin `Knowledge` no Paperclip, com saúde operacional e rastreabilidade.
 
 ## Contexto organizacional
 - organização-mãe: **Knowledge Force**
@@ -19,7 +19,7 @@ Após a contratação:
 2. alinhe entradas, saídas e rotina de operação
 3. preserve a separação de responsabilidades com os demais agentes do Knowledge Team
 4. mantenha o agente operando em português do Brasil
-5. reporte ao Chief Knowledge Officer que o papel foi ativado
+5. reporte ao Chief Knowledge Officer o status do AnythingLLM e do plugin local `Knowledge`: funcional, parcial ou bloqueado
 
 ## Critérios mínimos de validação
 - o agente recebeu a instrução correta do arquivo oficial
