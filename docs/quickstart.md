@@ -22,10 +22,22 @@ Antes de começar, confirme:
 - organização já existente no **Paperclip**
 - acesso operacional para contratar agentes
 - **AnythingLLM** disponível ou em fase final de instalação
-- plugin/integração necessária do **Paperclip** disponível para o modelo de operação adotado
+- entendimento explícito de que o plugin `Knowledge` do **Paperclip** existe localmente no ambiente de referência, mas ainda não foi publicado em repositório oficial
 - este repositório acessível: `https://github.com/clwdtch/knowledge-team`
 
 Se isso ainda não existir, não avance para contratação em massa. Comece pelo CKO e pelo Knowledge Infra.
+
+### Observação crítica sobre o plugin Knowledge
+
+Hoje existe um plugin local do Paperclip que cria o menu **"Knowledge"** e abre o **AnythingLLM**.
+
+Esse plugin **ainda não está em repositório oficial**. Então:
+
+- ele pode ser validado no ambiente local atual
+- ele **não** pode ser tratado como dependência pública já instalável
+- qualquer implantação em outra organização continua dependendo da publicação desse plugin ou de instrução equivalente oficial
+
+Referência operacional: `docs/paperclip-knowledge-plugin.md`
 
 ---
 
@@ -77,7 +89,8 @@ Template de apoio:
 O que ele precisa validar na prática:
 
 - se o **AnythingLLM** está instalado e acessível
-- se a integração/plugin necessária do **Paperclip** está operacional
+- se o plugin local `Knowledge` do **Paperclip** está operacional no ambiente atual
+- qual URL do **AnythingLLM** o plugin abre no ambiente atual
 - se existe conectividade entre os componentes usados no fluxo real
 - se há permissões, credenciais e dependências suficientes para operar
 
@@ -86,6 +99,7 @@ Saída mínima esperada do Knowledge Infra:
 - status da stack: ok / bloqueada / parcial
 - lista objetiva de bloqueios
 - confirmação do ambiente mínimo utilizável
+- classificação do plugin como: dependência local existente / dependência replicável publicada / bloqueio aberto
 
 ---
 
