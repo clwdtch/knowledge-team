@@ -4,7 +4,7 @@
 
 O Knowledge Team opera como um departamento especializado responsável por desenvolver, manter, governar e avaliar a capacidade cognitiva da organização.
 
-Ele não substitui os agentes operacionais da empresa. Seu papel é aumentar a qualidade desses agentes por meio de uma infraestrutura organizada de conhecimento, aprendizagem e governança.
+Ele não substitui os agentes operacionais da empresa. Seu papel é aumentar a qualidade desses agentes por meio de uma infraestrutura organizada de conhecimento, aprendizado e governança.
 
 O modelo operacional existe para responder a uma pergunta simples:
 

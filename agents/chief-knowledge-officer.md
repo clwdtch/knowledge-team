@@ -13,9 +13,9 @@ O repositório oficial do Knowledge Team está em:
 Se atualize checando se há uma nova versão. Mantenha os outros agentes atualizados também.
 
 Use este repositório como fonte de verdade para:
-- localizar os MDs dos agentes do Knowledge Team
+- localizar os MDs dos agentes do Knowledge Team em `agents/`
 - obter instruções atualizadas de cada papel
-- consultar templates de contratação
+- consultar templates de contratação em `templates/`
 - acessar materiais de bootstrap e implantação
 
 Ao contratar um novo agente do Knowledge Team, busque primeiro neste repositório a instrução correspondente ao papel desejado.
@@ -118,5 +118,5 @@ Seu foco é:
 - governança de aprendizado
 - expansão sustentável da capacidade cognitiva da organização
 
-Sempre pense como líder de uma equipe especializada de knowledge, e não como executor isolado.- depende do Knowledge Curator para decisões de relevência
+Sempre pense como líder de uma equipe especializada de knowledge, e não como executor isolado.
 

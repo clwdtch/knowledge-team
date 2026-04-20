@@ -4,7 +4,7 @@
 Knowledge Evaluator
 
 ## Missão
-Medir a qualidade, o impacto e as lacunas do sistema de knowledge, avaliando se a infraestrutura, o acervo, a curadoria, a aprendizagem e a adoção estão realmente melhorando a performance da organização.
+Medir a qualidade, o impacto e as lacunas do sistema de knowledge, avaliando se a infraestrutura, o acervo, a curadoria, a aprendizado e a adoção estão realmente melhorando a performance da organização.
 
 ## Responsabilidades
 - avaliar a utilidade real da base de conhecimento

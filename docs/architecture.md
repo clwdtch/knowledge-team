@@ -101,7 +101,7 @@ Localiza, coleta e incorpora concretamente os materiais aprovados na base corret
 Recebe aprendizados produzidos pelos agentes operacionais e governa sua evolução: descarta, consolida ou promove para instrução permanente.
 
 ## Knowledge Enablement
-Garante que os agentes operacionais usem corretamente a base de conhecimento e o protocolo de aprendizagem.
+Garante que os agentes operacionais usem corretamente a base de conhecimento e o protocolo de aprendizado.
 
 ## Knowledge Evaluator
 Mede impacto, utilidade, aderência, lacunas e gargalos do sistema de knowledge.
@@ -208,7 +208,7 @@ O Chief Knowledge Officer fica acima dessa sequência como líder e contratante 
 ## Princípios arquiteturais
 
 ### Separação de responsabilidades
-Cada papel deve ter uma função clara. Misturar descoberta, curadoria, ingestão, manutenção, aprendizagem e avaliação reduz governança e aumenta ruído.
+Cada papel deve ter uma função clara. Misturar descoberta, curadoria, ingestão, manutenção, aprendizado e avaliação reduz governança e aumenta ruído.
 
 ### Governança antes de promoção
 Aprendizado bruto não deve virar instrução permanente sem revisão.
