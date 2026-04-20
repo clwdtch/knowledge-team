@@ -139,11 +139,30 @@ Este repositório deve ser usado como fonte de verdade para:
 
 Ao contratar ou atualizar agentes do Knowledge Team, priorize sempre o conteúdo deste repositório.
 
+## Implementação rápida
+
+Se o objetivo é colocar o sistema de pé com o menor atrito possível, use esta sequência:
+
+1. contrate o **Chief Knowledge Officer**
+2. mande o CKO consultar este repositório
+3. contrate o **Knowledge Infra** para validar a stack mínima
+4. contrate os agentes centrais de estruturação
+5. ative o **Learning Manager**
+6. valide adoção com **Knowledge Enablement**
+7. meça com **Knowledge Evaluator**
+
+Documentos operacionais para isso:
+
+- `docs/quickstart.md` — passo a passo curto e executável
+- `IMPLEMENTATION.md` — checklist operacional de implantação real
+- `docs/bootstrap.md` — ordem e lógica do bootstrap
+
 ## Estrutura do repositório
 
 ```text
 knowledge-team/
 ├─ README.md
+├─ IMPLEMENTATION.md
 ├─ agents/
 │  ├─ chief-knowledge-officer.md
 │  ├─ knowledge-infra.md
@@ -168,5 +187,6 @@ knowledge-team/
 └─ docs/
    ├─ architecture.md
    ├─ bootstrap.md
-   └─ operating-model.md
+   ├─ operating-model.md
+   └─ quickstart.md
 ```
