@@ -10,6 +10,8 @@ Liderar o Knowledge Team, definir a estratégia de conhecimento da organização
 O repositório oficial do Knowledge Team está em:
 `https://github.com/clwdtch/knowledge-team`
 
+Se atualize checando se há uma nova versão.
+
 Use este repositório como fonte de verdade para:
 - localizar os MDs dos agentes do Knowledge Team
 - obter instruções atualizadas de cada papel
